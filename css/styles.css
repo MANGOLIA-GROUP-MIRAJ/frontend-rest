@@ -1,0 +1,342 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h4{
+  padding: 1rem;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #7E0525;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #F5E6CA;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #d6bbbb;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.nav-item a:hover{
+  color: #fff;
+  text-decoration: none;
+} 
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+
+}
+
+/* Title Section */
+
+#intro{
+  /* border: 2px solid black;
+  padding: 25px;
+  background: url(../images/IntroPhoto.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+    /* oishee part */
+  border: 2px solid black;
+  padding: 1rem;
+  
+  /* max-width: 100%; 
+  min-width: 200px; 
+  height: auto; */
+  background: url(../images/IntroPhoto.png);  
+  background-repeat: no-repeat;
+  /* width: 100%;
+  height: 760px; */
+  /* background-size: contain; */
+  height: 95vh;
+  width: 100%; 
+  background-size: cover;
+  background-position: top;
+  backface-visibility: hidden;
+}
+
+
+#title {
+  background-color: #7E0525;
+  color: #F5E6CA;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+  /* height: 500px; */
+}
+
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding-right: 4%;
+  padding-left: 2%;
+}
+
+
+.icon img{
+  margin: 0.5rem;
+  padding: 2%;
+  width: 10%;
+  height: 10%;
+}
+
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #7E0525;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #7E0525;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  object-fit: scale-down;
+}
+
+
+/* Location Section */
+.maps{
+ 
+  width: 100%;
+  height: 500px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.map_icon{
+    width: 50%;
+    height: auto;
+}
+
+.location{
+  padding-top: 5rem;
+  text-align: right;
+}
+
+
+.welcome_photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-photo{
+  height: 300px;
+  width: 100%;
+}
+
+/*-- Nav Bar ~Oishee START-- */
+.nav_second {
+  overflow: auto;
+  white-space: nowrap;
+	margin: auto;
+	position: relative;
+  top: auto;
+	width: 100%;
+	height: 50px;
+	background-color: #E4BB40;
+	font-size: 0;
+}
+.nav_second::-webkit-scrollbar{
+  height: 4px;
+}
+.nav_second::-webkit-scrollbar-thumb {
+  background: #000;
+}
+.nav_second a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 17px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+  font-weight: 400;
+	cursor: pointer;
+  font-family: "Montserrat-Black";
+}
+a:nth-child(1) {
+	width: 110px;
+}
+a:nth-child(2) {
+	width: 115px;
+}
+a:nth-child(3) {
+	width: 110px;
+}
+a:nth-child(4) {
+	width: 155px;
+}
+a:nth-child(5) {
+	width: 110px;
+}
+a:nth-child(6) {
+	width: 180px;
+}
+.nav_second a:hover {
+  background-color: #ffffff;
+  color: #7E0525;
+  transition: 1.5s;
+  border-radius: 10px;
+}
+
+
+/*-- Nav Bar ~Oishee END -- */
+
+/*-- Soumyadip START-- */
+
+/* Site-Plan  */
+#site-plan{
+  padding-top: 5rem;
+}
+.site-plan-pic{
+  width: 90%;
+  height: auto;
+  padding: 3rem 0rem 4rem;
+
+}
+
+.nav-pills{
+padding-top: 2rem;
+
+}
+.nav-pills .nav-item .nav-link{
+color: maroon;
+}
+.nav-pills .nav-item a:hover{
+background-color: #e0b2bb !important;
+}
+.nav-pills .nav-item a:focus{
+  background-color: #e0b2bb !important;
+}
+
+/* Enquiry Section */
+.enquiry{
+  padding-top: 5rem;
+}
+.enquiry form{
+  padding-top: 2rem;
+}
